@@ -1,8 +1,11 @@
+name: myexam_app
+description: Mobile application for myexam.ng
+
+# Add this block here:
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
-  http: ^1.1.0          # For API calls to myexam.ng
-  provider: ^6.0.0      # For state management
-  shared_preferences: ^2.0.0 # For saving user sessions locally
-  percent_indicator: ^4.2.2  # For showing exam progress
-  flutter_timer_countdown: ^1.0.0 # For the CBT timer
+  # ... your other dependencies
